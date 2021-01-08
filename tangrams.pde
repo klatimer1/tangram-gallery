@@ -1,29 +1,65 @@
 /* 
-Description: This sketch is a tangram of a sailboat that is sailing in the water. 
-Course: Computer Science 20S
-Due Date: January 18 2021
+Description: Exam Prep- Tangrams work. Drawing of a fish
+Created By: John Zoleta
+Course: Computer Science
+Due Date: January 18, 2021
 */
-size(500, 500);
-background(#79aece);
 
-// shapes for the sailboat tangram
-fill(#f08d28); // Changes the colour to orange
-rect(255,255, 100, 100); // for the square of the boat sets the foundation
-
-fill(#82191e); // changes the colour to crimson
-triangle(355, 355, 355, 255, 455, 255 ); // This will be the bow of the boat
-
-fill(#20835e); // changes colour to green
-triangle(255, 255, 155, 355, 255, 355); // this is the green triangle 
-
-fill(#c6dedf); // changes to light blue
-triangle(155, 355, 255, 255, 55,255); // this is the middle part of the tangram
-
-fill(#346304); // changes colour to dark green
-quad(100, 355, 0, 255, 55, 255, 155, 355); // this is the quad for the stern 
-
-fill(#644f47); // changes colour to brown
-triangle(250, 125, 335, 235, 155, 235); // this is the first sail
-
-fill(#8710ee); // changes colour to purple
-triangle(155, 0, 250, 125, 155, 235); // this is the second sail
+void setup()
+{
+int blue = #3a5fcd;
+int purple = #9b30ff;
+int green= #006400;
+int yellow = #ffd700;
+int red = #b00b13;
+int lightBlue = #3ae6ca;
+int pink = #e63a56;
+{
+}
+//this whole code is a drawing of a fish
+//sets the size of the bacground
+size (800,800);
+{
+}
+//draws the blue triangle of a tangram
+fill (blue);
+stroke (blue);
+triangle (200,400,400,400,400,200);
+{
+}
+//draws the purple triangle of a tangram
+fill (purple);
+stroke(purple);
+triangle (200,400,400,600,400,400);
+{
+}
+//draws the green square of a tangram
+fill(green);
+stroke(green);
+rect (400,350,100,100);
+{
+}
+//draws the small yellow triangle of a tangram
+fill (yellow);
+stroke(yellow);
+triangle (400,350, 500,350, 400,255);
+{
+}
+//draws the small red triangle of a tangram
+fill (red);
+stroke(red);
+triangle(400,450, 500, 450, 400,555);
+{
+}
+//draws the medium light blue triangle of a tangram
+fill (lightBlue);
+stroke(lightBlue);
+triangle (500,450, 600,350, 600,555);
+{
+}
+//draws the pink parallelogram of a tangram
+fill(pink);
+stroke(pink);
+triangle (500,450, 600,350, 500,350);
+triangle (500,350,600,350, 600,255);
+}
